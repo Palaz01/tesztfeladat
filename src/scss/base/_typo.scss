@@ -1,3 +1,4 @@
+// Fonts
 @font-face {
    font-family: 'Montserrat';
    src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2'),
@@ -29,3 +30,23 @@
       url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
    font-weight: 700;
 }
+
+// General typo rules
+body {
+   font-family: $main-font;
+   color: $text-color
+}
+
+h5 {
+   line-height: 1.444;
+}
+
+p {
+   line-height: 1.625;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+ 
