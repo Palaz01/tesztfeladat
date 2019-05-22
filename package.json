@@ -1,0 +1,23 @@
+{
+  "name": "tesztfeladat",
+  "version": "1.0.0",
+  "description": "front end tesztfeladat",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Zoltan Palatinus",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
