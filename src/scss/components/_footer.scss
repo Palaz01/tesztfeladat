@@ -31,11 +31,22 @@ footer {
             }
          }
       }
+
+      @include media-breakpoint-down(xs) {
+         width: 100%;
+         text-align: center;
+         margin-right: 0;
+         margin-bottom: 30px;
+      }
    }
 
    .newsletter {
       h6 {
          margin-bottom: 24px;
+
+         @include media-breakpoint-down(xs) {
+            text-align: center;
+         }
       }      
    }
 

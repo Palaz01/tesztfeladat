@@ -1,5 +1,15 @@
 .products {
    padding-top: 70px;
    padding-bottom: 70px;
+
+   .margin-bottom-md {
+      @include media-breakpoint-down(md) {
+         margin-bottom: 20px;
+      }
+   }
+
+   h5 {
+      font-weight: bold;
+   }
 }
  

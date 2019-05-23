@@ -14,10 +14,24 @@
       span {
          color: $brand-primary;
       }
+
+      @include media-breakpoint-down(xs) {
+         font-size: 28px;
+      }
    }
 
    p {
       margin-bottom: 50px;
+
+      @include media-breakpoint-down(xs) {
+         display: none;
+      }
+   }
+
+   img {
+      @include media-breakpoint-down(xs) {
+         max-width: 270px;
+      }
    }
 }
  

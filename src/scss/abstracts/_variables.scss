@@ -17,13 +17,19 @@ $dark: #000;
 //Navigation
 $navbar-light-color: $text-color-darker;
 $navbar-nav-link-padding-x: 1.75rem;
+$navbar-light-hover-color: $brand-primary;
+$navbar-light-toggler-border-color: $text-color-darker;
+$navbar-toggler-padding-y: 4px;
+$navbar-toggler-padding-x: 4px;
+$navbar-toggler-border-radius: 4px;
 
 //Buttons
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
 $btn-padding-y: 8px;
-$btn-padding-x-lg: 55px;
+$btn-padding-x-lg: 50px;
 $btn-padding-y-lg: 13px;
+$btn-font-size-lg: 1rem;
 
 //Card
 $card-border-radius: 0;
