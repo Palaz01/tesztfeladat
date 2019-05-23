@@ -1,0 +1,49 @@
+footer {
+   .top-footer {
+      border-top: $light-border;
+      border-bottom: 1px solid $light-border;
+      padding: 40px 0;
+   }
+
+   .footer-menu {
+      margin-right: 85px;
+
+      h6 {
+         margin-bottom: 12px;
+      }
+
+      p {
+         font-weight: bold;
+         font-weight: 14px;
+      }
+
+      ul {
+         list-style: none;
+         padding: 0;
+
+         li a {
+            color: #a9a9a9;
+            font-size: 13px;
+            margin-bottom: 15px;
+
+            &:hover {
+               color: $brand-primary;
+            }
+         }
+      }
+   }
+
+   .newsletter {
+      h6 {
+         margin-bottom: 24px;
+      }      
+   }
+
+   .bottom-footer {
+      svg {
+         transform: rotate(-90deg);
+         fill: rgba(46, 46, 46, .1);
+      }
+   }
+}
+ 

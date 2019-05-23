@@ -1,6 +1,7 @@
 // Typo
 $h1-font-size: 50px;
 $h5-font-size: 18px;
+$h6-font-size: 14px;
 $headings-line-height: 1.08;
 $main-font: 'Montserrat', sans-serif;
 
@@ -9,21 +10,30 @@ $brand-primary: #c4a37b;
 $dark-bg: #292929;
 $gray: #dbdbdb;
 $text-color: #5a5a5a;
-$text-color-darker: #3a3a3a;
-$text-color-darkest: #2e2e2e;
+$text-color-darker: #2e2e2e;
+$headings-color: #3a3a3a;
 $dark: #000;
 
 //Navigation
-$navbar-light-color: $text-color-darkest;
+$navbar-light-color: $text-color-darker;
 $navbar-nav-link-padding-x: 1.75rem;
 
 //Buttons
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
+$btn-padding-y: 8px;
 $btn-padding-x-lg: 55px;
 $btn-padding-y-lg: 13px;
 
 //Card
 $card-border-radius: 0;
 $card-spacer-x: 30px;
-    
+
+//Form
+$input-padding-y: 0.53rem;
+$input-padding-x: 0.9rem;
+$form-group-margin-bottom: 19px;
+
+
+//Borders
+$light-border: 1px solid rgba(46, 46, 46, .1);
