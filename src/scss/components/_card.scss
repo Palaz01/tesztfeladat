@@ -1,0 +1,19 @@
+.card {
+   &-link {
+      color: $brand-primary;
+
+      svg {
+         fill: $brand-primary;
+         width: 30px;
+         transition: transform .2s;
+      }
+
+      &:hover {
+         color: $brand-primary;
+
+         svg {
+            transform: translateX(10px);
+         }
+      }
+   }
+}
