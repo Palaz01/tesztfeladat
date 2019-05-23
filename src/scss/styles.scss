@@ -2,13 +2,9 @@
 @import "abstracts/variables";
 
 // Bootstrap files
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-@import "bootstrap/bootstrap-grid";
-@import "bootstrap/type";
-@import "bootstrap/navbar";
+@import "bootstrap/bootstrap";
 
 // Custom styles
 @import "base/typo";
+@import "components/navbar";
  
