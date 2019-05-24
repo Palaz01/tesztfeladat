@@ -1,9 +1,15 @@
-@include media-breakpoint-up(sm) {
-   .dropdown-toggle:after {
-      display: none;
-   }
-   
+.dropdown-toggle:after {
+   display: none;
+}
+
+@include media-breakpoint-up(sm) {  
    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
       display: block;
+   }
+}
+
+@include media-breakpoint-down(sm) {
+   .dropdown-menu {
+      background-color: transparent;
    }
 }

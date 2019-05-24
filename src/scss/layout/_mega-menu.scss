@@ -24,6 +24,10 @@
                &:hover {
                   color: $brand-primary;
                }
+
+               @include media-breakpoint-down(sm) {
+                  font-size: 18px;
+               }
             }
          }
       }
@@ -36,10 +40,32 @@
          display: block;
          font-weight: 600;
       }
+
+      .content-small {
+         display: none;
+      }
+
+      &.show {
+         @include media-breakpoint-down(sm) {
+            .content-desktop {
+               display: none;
+            }
+
+            .content-small {
+               display: block;
+            }
+         }
+      }
    
       @media screen and(max-width: 1240px) {
          width: 900px;
          left: -250px;
+      }
+
+      @include media-breakpoint-down(sm) {
+         width: auto;
+         left: 0;
+         padding: 0 20px;
       }
    }
 }
