@@ -10,5 +10,10 @@
       border-width: 3px;
       outline: none;
    }
+
+   @include media-breakpoint-down(sm) {
+      padding-top: 16px;
+      padding-bottom: 16px;
+   }
 }
  

@@ -1,6 +1,7 @@
 .card {
    &-link {
       color: $brand-primary;
+      font-weight: 500;
 
       svg {
          fill: $brand-primary;
