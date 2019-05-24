@@ -14,11 +14,12 @@ $text-color: #5a5a5a;
 $text-color-darker: #2e2e2e;
 $headings-color: #3a3a3a;
 $dark: #000;
+$primary: $brand-primary;
 
 //Navigation
 $navbar-light-color: $text-color-darker;
 $navbar-nav-link-padding-x: 1.75rem;
-$navbar-light-hover-color: $brand-primary;
+$navbar-light-hover-color: $text-color-darker;
 $navbar-light-toggler-border-color: $text-color-darker;
 $navbar-toggler-padding-y: 4px;
 $navbar-toggler-padding-x: 4px;
@@ -41,6 +42,10 @@ $input-padding-y: 0.53rem;
 $input-padding-x: 0.9rem;
 $form-group-margin-bottom: 19px;
 
-
 //Borders
 $light-border: 1px solid rgba(46, 46, 46, .1);
+
+//Dropdown
+$dropdown-border-width: 0;
+$dropdown-border-radius: 0;
+$dropdown-bg: rgb(250, 250, 250);

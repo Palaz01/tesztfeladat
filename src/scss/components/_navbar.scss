@@ -4,6 +4,21 @@
    
    .nav-link {
       font-weight: bold;
+
+      &:hover {
+         position: relative;
+
+         &:before {
+            content: "";
+            width: calc(100% - 56px);
+            height: 4px;
+            background-color: #c4a37b;
+            position: absolute;
+            left: 28px;
+            bottom: 13px;
+            z-index: -1;
+         }
+      }
    }
 
    .navbar-toggler {
@@ -16,4 +31,15 @@
       padding-bottom: 16px;
    }
 }
+
+.line {
+   background-color: rgb(196, 163, 123);
+   position: absolute;
+   left: 969px;
+   top: 53px;
+   width: 94px;
+   height: 4px;
+   z-index: 389;
+ }
+ 
  

@@ -41,6 +41,10 @@ h5 {
    line-height: 1.444;
 }
 
+h6 {
+   font-weight: bold;
+}
+
 p {
    line-height: 1.625;
 }
@@ -48,5 +52,9 @@ p {
 a {
    text-decoration: none;
    color: inherit;
+
+   &:hover {
+      text-decoration: none;
+   }
 }
  

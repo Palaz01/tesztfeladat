@@ -1,0 +1,45 @@
+.mega-menu {
+   .dropdown-menu {
+      left: -500px;
+      width: 1200px;
+      padding: 30px;
+      border-top: 10px solid #fff;
+   
+      h6 {
+         margin-bottom: 35px;
+      }
+   
+      ul {
+         padding: 0;
+         margin-bottom: 30px;
+         list-style: none;
+   
+         li {
+            margin-bottom: 7px;
+
+            a {
+            color: $text-color;
+            font-weight: 500;
+   
+               &:hover {
+                  color: $brand-primary;
+               }
+            }
+         }
+      }
+   
+      .no-title {
+         padding: 50px;
+      }
+   
+      a {
+         display: block;
+         font-weight: 600;
+      }
+   
+      @media screen and(max-width: 1240px) {
+         width: 900px;
+         left: -250px;
+      }
+   }
+}
